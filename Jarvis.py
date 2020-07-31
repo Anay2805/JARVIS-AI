@@ -81,6 +81,14 @@ if __name__ == '__main__':
         elif 'email' in query:
             speak('Who is the recipient? ')
             recipient = myCommand()
+            
+        elif 'the time' in query:
+            strTime = datetime.datetime.now().strftime("%H:%M:%S")    
+            speak(f"Sir, the time is {strTime}")
+
+        elif 'open code' in query:
+            codePath = "D:\\Users\\Jarvis Artificial Intelligence\\Jarvis.py"
+            os.startfile(codePath)
 
             if 'me' in recipient:
                 try:
