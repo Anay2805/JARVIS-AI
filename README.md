@@ -1,6 +1,6 @@
 # JARVIS-AI
 
-JUST A RATHER VERY INTEELIGENT SYSTEM
+JUST A RATHER VERY INTELLIGENT SYSTEM
 
 An basic AI which can perform basic tasks like emailing; opening youtube, gmail, google ; playing music; searching on Wikipedia and is well spoken AI.
 
