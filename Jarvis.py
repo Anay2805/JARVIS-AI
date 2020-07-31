@@ -99,7 +99,7 @@ if __name__ == '__main__':
                     speak('Sorry Sir! I am unable to send your message at this moment!')
 
 
-        elif 'nothing' in query or 'abort' in query or 'stop' in query:
+        elif 'nothing' in query or 'quit' in query or 'stop' in query:
             speak('okay')
             speak('Bye Sir, have a nice day.')
             sys.exit()
